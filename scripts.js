@@ -13,6 +13,7 @@ for(let image of images)
 //third section
 
 //getter, put in a variable
+
 // if you're using a query method with a plural name and setting it to a variable, it will automatically return an HTML collection
 let lightBlueSpans = document.getElementsByClassName("light-blue");
 let dkBlueSpans = document.getElementsByClassName("med-blue");
