@@ -44,3 +44,4 @@ for(let i = 0; i < svgs.length; i++)
 // fifth section
 
 document.querySelector("#query .bold").style.color = "#7C9EA6";
+//go to container with ID #query and descendents that are bold
