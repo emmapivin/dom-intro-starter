@@ -45,3 +45,19 @@ for(let i = 0; i < svgs.length; i++)
 
 document.querySelector("#query .bold").style.color = "#7C9EA6";
 //go to container with ID #query and descendents that are bold
+
+// sixth section
+
+// in the first li inside of this content list on the page, change to new VALUE
+document.querySelector(".content_list li:first-of-type").textContent = "This is new list item text";
+
+// gives us all the li's as a collection
+    // can acces a specific one with square brackets and an INDEX
+document.querySelectorAll(".content_list li")[2].innerHTML += "<strong> Emma Pivin</strong>";
+
+//seventh section
+
+//query selector accepts anything of a valid CSS selector!
+    // ex) select by tag name, ID, attribute
+    // ex) space to indicate a child (here the anchor tag child of the #remove ID)!!!
+document.querySelector("#remove a").removeAttribute("hidden");
